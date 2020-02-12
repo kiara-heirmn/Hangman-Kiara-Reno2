@@ -12,7 +12,7 @@
 <body>
 	<?php if (isset($_SESSION['start'])): ?> 
 		<h1>Game started</h1>
-		<form action="index.php" method='POST'>
+		<form action="IndexHangman.php" method='POST'>
 			<h2>The word is: <?php foreach ($_SESSION['currentSolution'] as $key => $letter) {echo $key=$letter;}; ?></h2>
 			<?php foreach ($_SESSION['alphabet'] as $key => $value) {
 				echo "<input type='submit' name='letter-btn' value=" . $key=$value . ">";
@@ -24,7 +24,7 @@
 		</form>
 	<?php else: ?>
 		<h1>Game ended</h1>
-		<form action='index.php' method='POST'>
+		<form action='IndexHangman.php' method='POST'>
 			<input type='submit' name='start-btn' value='Start Game'>
 		</form>
 
