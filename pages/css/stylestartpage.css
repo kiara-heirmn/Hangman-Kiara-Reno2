@@ -1,0 +1,51 @@
+body {
+    background-color: #c4c4c4;
+  }
+
+h1{
+    color: black;
+    font-family: "Showcard Gothic";
+    text-align: center;
+}
+
+.center {
+    padding-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  a:link, a:visited {
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+
+
+  .playbutton {
+    background-color: #bfc26d;
+    margin-top: 150px;
+  }
+
+  .playbutton:hover{
+    background-color: #8a8c4d;
+  }
+
+ 
+  .settingbutton {
+      background-color: lightgray;
+      margin-top: 30px;
+  }
+
+  .settingbutton:hover{
+      background-color: gray;
+  }
+ 

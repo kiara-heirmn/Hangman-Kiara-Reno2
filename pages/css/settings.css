@@ -1,0 +1,51 @@
+body {
+    background-color: #c4c4c4;
+  }
+
+  h1{
+    color: black;
+    font-family: "Showcard Gothic";
+    font-size: 30px;
+}
+
+a:link, a:visited {
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+
+
+  .exitbutton {
+    background-color: #bfc26d;
+    margin-top: 100px;
+  }
+
+  .exitbutton:hover{
+    background-color: #8a8c4d;
+  }
+
+ 
+  .settingbutton {
+      background-color: lightgray;
+      margin-top: 30px;
+  }
+
+  .settingbutton:hover{
+      background-color: gray;
+  }
+
+  .settingbuttonLang{
+    background-color: lightgray;
+    margin-top: 150px;
+  }
+
+.settingbuttonLang:hover{
+    background-color: gray;
+}
