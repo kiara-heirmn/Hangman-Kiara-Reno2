@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/istockphoto-636481358-612x612.jpg");
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+p{
+    color: black;
+    font-family: "Showcard Gothic";
+    text-align: center;
+    font-size: 42px;
+    margin-top: 35%;
+}
+
+.crossbutton {
+    background-color: red;
+    margin-top: 10%;
+    color: white;
+    display: block;
+    margin-left: 80%;
+    width: 4%;
+    padding: 7px;
+    text-align: center; 
+    text-decoration: none;
+    border: 1px solid darkred;
+    border-radius: 25px;
+  }
+
+  .crossbutton:hover{
+    background-color: darkred;
+  }
+
+  .exitbutton {
+    background-color: #bfc26d;
+    margin-top: 15%;
+    color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+  }
+
+  .exitbutton:hover{
+    background-color: #8a8c4d;
+  }
