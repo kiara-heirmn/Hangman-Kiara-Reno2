@@ -78,7 +78,7 @@
 			<h1>Hangman</h1>
 			<img src="images/LOGO.png" alt="">
 			<?php if (isset($_SESSION['message'])) {
-				echo "<h3>". $_SESSION['message'] . "</h3>";
+				echo "<h2>". $_SESSION['message'] . "</h2>";
 			} ?>
 			<form action='IndexHangman.php' method='POST'>
 				<input type='submit' class="start-btn" name='start-btn' value='Start Game'>
