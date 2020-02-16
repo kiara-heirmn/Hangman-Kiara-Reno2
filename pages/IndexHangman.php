@@ -8,7 +8,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Hangman</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/game.css">
 </head>
 <body>
 	<div id="game-box">
