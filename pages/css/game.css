@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/istockphoto-636481358-612x612.jpg");
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin: 0 auto;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+
+
+.start-btn{
+    background-color: #bfc26d;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.start-btn:hover{
+    background-color: #8a8c4d; 
+}
+
+.letter-btn {
+	padding: 10px;
+}
+
+#top-hangman-img {
+	width: 100px;
+}
+
+.hangman-img {
+	width: 200px;
+}
+
+h2 {
+	font-size: 30px;
+	letter-spacing: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	letter-spacing: 5px;
+}
+

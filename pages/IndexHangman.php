@@ -1,6 +1,6 @@
 <?php 
 	session_start(); 
-	include '../functionality/hangman.php';
+	include ("../functionality/hangman.php");
 ?>
 
 <!DOCTYPE html>
@@ -8,6 +8,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="css/game.css">
 </head>
 <body>
 	<?php if (isset($_SESSION['start'])): ?> 
