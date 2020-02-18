@@ -1,6 +1,6 @@
 <?php 
 	session_start(); 
-	include '../functionality/hangman.php';
+	include ("../functionality/hangman.php");
 ?>
 
 <!DOCTYPE html>
@@ -12,9 +12,8 @@
 </head>
 <body>
 	<div id="game-box">
-		<?php if (isset($_SESSION['start'])): ?> 
+		<?php if (isset($_SESSION["start"])): ?> 
 
-			<img src='images/LOGO.png' id='top-hangman-img' alt=''>
 			<h1>Game started</h1>
 
 			<?php switch ($_SESSION['currentAttemps']) {
